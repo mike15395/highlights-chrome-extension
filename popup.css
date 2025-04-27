@@ -1,0 +1,48 @@
+body {
+    width: 300px;
+    height: 400px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    background: #f7f7f7;
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  #highlightsList {
+    flex-grow: 1;
+    overflow-y: auto;
+  }
+  
+  .highlightItem {
+    background: white;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    position: relative;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+  
+  .deleteBtn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
